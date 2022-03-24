@@ -27,6 +27,10 @@ import Foundation
 let sort = Sort()
 print(sort.a)
 //sort.selectionSort()
-sort.insertionSort()
+//sort.insertionSort()
+sort.shellSort()
 print(sort.a)
+sort.shuffle()
+print(sort.a)
+
 
